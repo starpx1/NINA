@@ -320,6 +320,10 @@
                                     <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="7">
                                         <Setter Property="Visibility" Value="Collapsed" />
                                     </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="8">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+
                                 </Style.Triggers>
                             </Style>
                         </Grid.Style>
@@ -405,6 +409,10 @@
                                     <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="7">
                                         <Setter Property="Visibility" Value="Collapsed" />
                                     </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="8">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+
                                 </Style.Triggers>
                             </Style>
                         </Grid.Style>
@@ -590,6 +598,10 @@
                                     <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="7">
                                         <Setter Property="Visibility" Value="Collapsed" />
                                     </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="8">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+
                                 </Style.Triggers>
                             </Style>
                         </Grid.Style>
@@ -694,6 +706,10 @@
                                     <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="7">
                                         <Setter Property="Visibility" Value="Collapsed" />
                                     </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="8">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+
                                 </Style.Triggers>
                             </Style>
                         </Grid.Style>
@@ -773,6 +789,10 @@
                                     <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="7">
                                         <Setter Property="Visibility" Value="Collapsed" />
                                     </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="8">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+
                                 </Style.Triggers>
                             </Style>
                         </Grid.Style>
@@ -877,6 +897,10 @@
                                     <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="7">
                                         <Setter Property="Visibility" Value="Collapsed" />
                                     </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="8">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+
                                 </Style.Triggers>
                             </Style>
                         </Grid.Style>
@@ -1033,6 +1057,10 @@
                                     <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="7">
                                         <Setter Property="Visibility" Value="Collapsed" />
                                     </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="8">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+
                                 </Style.Triggers>
                             </Style>
                         </Grid.Style>
@@ -1097,6 +1125,10 @@
                                     <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="6">
                                         <Setter Property="Visibility" Value="Collapsed" />
                                     </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="8">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+
                                 </Style.Triggers>
                             </Style>
                         </Grid.Style>
@@ -1263,6 +1295,95 @@
 
                         </StackPanel>
                     </Grid>
+
+                    <!--  Starpx  -->
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Grid.Style>
+                            <Style TargetType="{x:Type Grid}">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="0">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="1">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="2">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="3">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="4">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="5">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="6">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding ElementName=PART_PlateSolverList, Path=SelectedIndex}" Value="7">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Grid.Style>
+                        <StackPanel Grid.IsSharedSizeScope="True" Orientation="Vertical">
+                            <Grid Margin="0,6,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" SharedSizeGroup="Astrometry_Label" />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition Width="Auto" SharedSizeGroup="AstrometryQuestion_Label" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock VerticalAlignment="Center" Text="{ns:Loc LblAPIKey}" />
+                                <TextBox
+                                    Grid.Column="1"
+                                    MinWidth="130"
+                                    Margin="5,0,0,0"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Center"
+                                    Text="{Binding StarpxAPIKey}" />
+
+                                <TextBlock
+                                    Grid.Column="2"
+                                    Margin="5,0,0,0"
+                                    VerticalAlignment="Center"
+                                    Text="">
+                                    <Hyperlink Command="{Binding DataContext.OpenWebRequestCommand, ElementName=UC}" CommandParameter="http://starpx.com">
+                                        <Run Text="?" />
+                                    </Hyperlink>
+                                </TextBlock>
+                            </Grid>
+                            <!--<Grid Margin="0,6,0,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" SharedSizeGroup="Astrometry_Label" />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition Width="Auto" SharedSizeGroup="AstrometryQuestion_Label" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock VerticalAlignment="Center" Text="{ns:Loc LblURL}" />
+                                <TextBox
+                                    Grid.Column="1"
+                                    Margin="5,0,0,0"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Center"
+                                    Text="{Binding AstrometryURL}" />
+                            </Grid>-->
+
+                            <StackPanel MaxHeight="150" Margin="0,15,0,6">
+                                <TextBlock Text="{ns:Loc LblStarpxProvidedBy}" />
+                                <TextBlock MaxHeight="73" HorizontalAlignment="Left">
+                                    <Hyperlink Command="{Binding DataContext.OpenWebRequestCommand, ElementName=UC}" CommandParameter="http://starpx.com/">
+                                        <Image Source="/NINA;component/Resources/starpx.com.png" Stretch="Uniform" />
+                                    </Hyperlink>
+                                </TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+
                 </Grid>
             </Grid>
         </GroupBox>

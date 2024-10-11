@@ -42,6 +42,10 @@ namespace NINA.Core.Enum {
         TSX_IMAGELINK,
 
         [Description("LblPinPoint")]
-        PINPONT
+        PINPONT,
+
+        [Description("LblStarpx")]
+        STARPX
+
     }
 }

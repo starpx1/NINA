@@ -37,5 +37,9 @@ namespace NINA.Core.Enum {
 
         [Description("LblPinPoint")]
         PINPOINT,
+
+        [Description("LblStarpx")]
+        STARPX
+
     }
 }
