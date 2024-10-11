@@ -7042,4 +7042,12 @@ Additionally, it is essential that the ASCOM driver used also supports this 32-b
   <data name="LblZwoResetZeroPositionPrompt" xml:space="preserve">
     <value>Set current position to zero?</value>
   </data>
+  <data name="LblStarpx" xml:space="preserve">
+    <value>Starpx</value>
+  </data>
+  <data name="LblStarpxProvidedBy" xml:space="preserve">
+    <value>Please select Starpx for both "Plate solver" and "Blind solver"
+Plate solve service provided by starpx.com:
+</value>
+  </data>
 </root>

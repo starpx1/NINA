@@ -222,7 +222,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Resource Include="Resources\astrometry.net.png" />
-    <Content Include="3rd-party-licenses.txt">
+	<Resource Include="Resources\starpx.com.png" />
+	  <Content Include="3rd-party-licenses.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>    
     <Content Include="External\x64\Altair\altaircam.dll">

@@ -55,6 +55,7 @@ namespace NINA.Profile {
             gain = -1;
             binning = 1;
             sync = false;
+            starpxAPIKey = string.Empty;
 
             var defaultASPSLocation = Environment.ExpandEnvironmentVariables(@"%programfiles(x86)%\PlateSolver\PlateSolver.exe");
             aspsLocation =
@@ -508,6 +509,23 @@ namespace NINA.Profile {
                     RaisePropertyChanged();
                 }
 
+            }
+        }
+        private string starpxAPIKey;
+
+        [DataMember]
+        public string StarpxAPIKey {
+            get => starpxAPIKey;
+            set {
+                // Whitespace characters are not valid characaters in an Astrometry.net API key.
+                // Help the user by removing any that might be present. Copy and pasting from the astrometry.net API page
+                // can sometimes insert a space at the end of the API key string, and it's not very obvious.
+                string key = Whitespace().Replace(value, string.Empty);
+
+                if (starpxAPIKey != key) {
+                    starpxAPIKey = key;
+                    RaisePropertyChanged();
+                }
             }
         }
 
